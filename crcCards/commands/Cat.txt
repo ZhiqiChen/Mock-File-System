@@ -1,0 +1,14 @@
+Class name: Cat
+Parent class (if any): Command
+Subclasses (if any):
+
+Responsibilities:
+*Display the contents of FILE1 and other files (i.e. File2 ….) concatenated in the shell
+*Three line breaks separate the contents of one file from the next
+*able to get file from relative or full path
+*If there is more than one file, displays all their contents in the console.
+*Display error if the file contains invalid path (for that path only).
+
+Collaborators:
+*File
+*JShell

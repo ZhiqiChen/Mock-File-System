@@ -1,0 +1,14 @@
+Class name: Echo
+Parent class (if any): Command
+Subclasses (if any):
+
+Responsibilities:
+*Adds a piece of text provided by user to a file provided by user in the arguments
+*If no target file provided, prints the text to terminal
+Creates new text file if file does not already exist in the working directory
+*Either overwrites file or appends string to file, depending on option selected by user
+
+Collaborators:
+*File
+*JShell
+*Directory

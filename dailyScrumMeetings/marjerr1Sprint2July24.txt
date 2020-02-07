@@ -1,0 +1,10 @@
+a) What did I work on in the last three days? 
+-completed cp and mv, what was not already done
+-completed the redirection portion of the project
+
+b) What do I plan to work in the next three days?
+-testing, testing, testing
+-cleaning up the way we handle errors
+
+c) Am I blocked on anything?  
+-code doesnt currently compile, no way for me to really test what I've been working on recently

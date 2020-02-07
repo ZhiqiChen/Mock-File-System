@@ -1,0 +1,26 @@
+/
+	exampleFile
+EOD
+exampleText
+ENDEOD
+	/a
+		/a/b
+			/a/b/c
+				/a/b/c/d
+				/a/b/c/e
+	/b
+		/b/x
+		/b/y
+			/b/y/x
+				/b/y/x/z
+	/c
+PWD
+/a/b/c
+HISTORY
+mkdir /a /b/x/../y/x/z /c /a/b/c/d/../e
+echo "exampleText" > exampleFile
+cd /a/b/c
+DIRECTORYSTACK
+/a/b
+/
+/b/y/x/z

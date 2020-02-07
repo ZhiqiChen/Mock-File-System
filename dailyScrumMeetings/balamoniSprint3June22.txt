@@ -1,0 +1,10 @@
+What did I work on in the last three days?
+    - Planned out how to do Directory Stack
+    - Planned on pushd and popd
+
+What do I plan to work on in the next three days?
+    - Update with the group
+    
+
+Am I blocked on anything?
+   - No

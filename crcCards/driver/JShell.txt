@@ -1,0 +1,16 @@
+Class name: JShell
+Parent class (if any):
+Subclasses (if any):
+
+Responsibilities:
+*Handles the UI
+*Prints prompts
+*Manages input from the user - includes reading and storing
+*Ensures input is valid
+
+
+Collaborators:
+*CommandHandler
+*Directory
+*history
+

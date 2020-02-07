@@ -1,0 +1,12 @@
+Class name: CommandHandler
+Parent class (if any):
+Subclasses (if any):
+
+Responsibilities:
+*Checks if input given is valid
+*Calls necessary command with arguments provided
+*check for correct input
+Collaborators:
+*All commands
+*All structures
+*JShell

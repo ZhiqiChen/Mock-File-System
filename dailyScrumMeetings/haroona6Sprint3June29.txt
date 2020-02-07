@@ -1,0 +1,9 @@
+What did I work on in the last three days?
+    - Worked on echo and command handler recognizing input and calling class
+
+What do I plan to work on in the next three days?
+    - Finish the tasks
+    - Test functions
+
+Am I blocked on anything?
+   - Remaining commands need to be completed

@@ -1,0 +1,10 @@
+Class name: File
+Parent class (if any): 
+Subclasses (if any):
+
+Responsibilities:
+*Represents a file
+*Knows file name
+*Knows file contents
+
+Collaborators:

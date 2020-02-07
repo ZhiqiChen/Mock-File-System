@@ -1,0 +1,13 @@
+a) What did I work on in the last three days? 
+-instead of creating a file traversal class we just had a
+root directory in Jshell 
+-added functions in Directory.java for traversal and added . and .. funtionality
+-revamping mkdir and calling mkdir in command handler based on new function added in Directory.java
+ -full Path allowed for cat and file inputs for ls
+ -fixed a lot of bugs with cat, cd, ls and mkdir
+ -added comments
+ -added a few crc cards lines
+b) What do I plan to work in the next three days?
+Not applicable
+c) Am I blocked on anything?  
+None.

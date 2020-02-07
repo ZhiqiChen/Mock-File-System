@@ -1,0 +1,12 @@
+Class name: Mv
+Parent class (if any): Command
+Subclasses (if any):
+
+Responsibilities:
+*Move item OLDPATH to NEWPATH (both paths can be relative to the current directory or full paths)
+*If NEWPATH is a directory, move item into the directory
+
+Collaborators:
+*Directory
+*JShell
+

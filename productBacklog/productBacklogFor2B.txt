@@ -1,0 +1,73 @@
+Backlog Item 														Estimate (in hours)
+
+(commandHandler)
+Allow user to use to take output of any command and redirect it 	5
+to a file. If that file does not exist, create it. If it does
+exist, the user may overwrite its contents or append to them,
+depending on whether they use ">" or ">>". 
+This can be done with any of the commands implemented below.
+
+
+(errors)
+Return an error to the user when what they input is not a command.	2
+
+Return an error to the user when the incorrect number of			3
+arguments are provided for a particular command.
+
+Return an error to the user when the file or directory a user 		3
+is searching for (either directly or as part of a command, ie. cd)
+cannot be found.
+
+
+(ls)
+Allow user to recursively print all child files and directories 	4
+of a specified directory and all directories and files it 
+contains.
+
+(echo)
+Allow user to print a string to the terminal using echo. Echo		3
+redirects to file only if specified by the user.
+that
+(mv)
+Allow user to move a file from one location to another, 			3
+specified by path.
+
+Allow user to move a directory (and recursively move all			3
+the contents of that directory, if they exist) to a new 
+location.
+
+(cp)
+Allow user to copy a file from one location to another.				3
+
+Allow user to copy a directory (and all contents, if they			3
+exist) to a new location.
+
+(cat)
+Allow user to print multiple files to the terminal at once.			3
+
+(get URL)
+Allow user to add a file from a web address to the current 			4
+working directory.
+
+(man)
+Update man to include the new commands and the old					2
+commands' updated requirements.
+
+(save)
+Allow user to save the JShell as it currently is, to be loaded		8
+in ANOTHER SESSION of the JShell. This includes current working
+directory, directory/file structure, history, etc.
+
+(load)
+Allow user to load a previously saved JShell state to the			5
+current session of the JShell.
+
+(find)
+Allow user to search for files or directory in specified    		3
+directories. This should search all children of those directories
+as well.
+
+(tree)
+Allow user to display the entire file system as a branching			4
+tree starting from the root directory.
+

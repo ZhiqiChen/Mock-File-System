@@ -1,0 +1,8 @@
+a) What did I work on in the last three days? 
+-finished load class and its functionality
+-wrote the the sprint backlog for the 17th
+b) What do I plan to work in the next three days?
+-work on other things assigned to me on the sprint
+	-especially testing and crc cards
+c) Am I blocked on anything?  
+None.

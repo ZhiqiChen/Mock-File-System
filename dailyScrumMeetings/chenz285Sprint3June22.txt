@@ -1,0 +1,12 @@
+a) What did I work on in the last three days? 
+-Wrote the sprint and divided up work
+- finished the work delegated to me
+	-created and finished ls and pwd class
+-edited file and mkdir to include a link-list of files
+b) What do I plan to work in the next three days?
+-start testing my functions
+-start making the file navigation class and search funcitons
+-start making JShell run the commands correctly
+c) Am I blocked on anything?  
+need cat to be finished
+not having the file navigation class

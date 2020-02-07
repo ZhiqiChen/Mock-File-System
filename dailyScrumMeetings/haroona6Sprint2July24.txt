@@ -1,0 +1,9 @@
+What did I work on in the last three days?
+    - Finished get
+    - Updated CRC cards for get
+
+What do I plan to work on in the next three days?
+    - Finish testing and optimize any code
+
+Am I blocked on anything?
+   - No

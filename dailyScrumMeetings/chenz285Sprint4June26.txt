@@ -1,0 +1,10 @@
+a) What did I work on in the last three days? 
+-tested functions that i wrote
+-started on conceiving the command handler
+-added remove duplicate space function in jshell
+b) What do I plan to work in the next three days?
+-start testing more functions
+-start making the file navigation class and search funcitons
+-start making JShell run the commands correctly
+c) Am I blocked on anything?  
+don't know how do to test function formally using within the test folder

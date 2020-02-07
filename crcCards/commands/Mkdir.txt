@@ -1,0 +1,12 @@
+Class name: Mkdir
+Parent class (if any): Command
+Subclasses (if any):
+
+Responsibilities:
+*Creates one (or many) new directory(ies) in a specified location
+*If no location specified, creates the directories in the current working directory
+*able to create several directories at once
+*able to use full or relative paths
+Collaborators:
+*Directory
+*JShell

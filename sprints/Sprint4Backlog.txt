@@ -1,0 +1,61 @@
+//Sprint 2 Backlog. by Zhiqi Chen
+July 11 to july 17
+
+User Stories from Product Backlog that we will address in this sprint:
+a) allow user to recursively print contents of file or
+the specified directory or current directory. (ls)
+b)save the JShell as it	currently is to be loaded in ANOTHER SESSION by the 
+load command (save)
+c)  allow user to search files or directory in specified directories (find)
+d) move location of a directory or file. If mv on a directory, recursively
+move all elements (mv)
+e) like move, but do not delete the old location (cp)
+f) Update cat to be able to take multiple arguments (cat)
+g) allow user to add a file from the a web address to working directory (get URL)
+h)allow user to display the entire file system as a 
+tree starting from the root directory (tree)
+i) testing pwd and history
+j) Update the existing commands to inherit from a generic parent class
+k)allow user to use > and >> to either take output and store  
+and append to a file specified. If no file is specified
+output error message (all program)
+
+
+Specific tasks to be accomplished:
+a-1. recursively print all subdirectories
+b-1. save all directories and files while retaining their connections
+b-2  save history
+b-3. save all directory in pushDir
+c-1. allow user to specify the type of d or f for directory or file using -type
+c-2. able to search specific file by using -name and output result (hint use findDir and findFile in Directory.java)
+c-3. able to search multiple directories using full or relative pathing
+c-4. able to output error if no directories or invalid directories
+d-1. mv OLDPATH NEWPATH: able to move item from OLDPATH to NEWPATH
+d-2. able to mv directory and file
+d-3. able to use relative or full path
+d-4. delete the OLDPATH
+e-1. same as mv but don't delete path
+f-1 able to use cat for multiple files and output error for invalid paths
+g-1. able to get html or txt files from the web address and store in current directory
+g-2. retain the same name as from web address
+h-1. display the entire file system from root directory
+h-2. formated as from the handout given
+h-3. tree includes files and directories
+i-1. make unit test for pwd and history
+j-1. make an generic parent class
+j-2. have some necessary functions like runCommand or toString
+k-1. implement functions such that all outputs will be stored in the file given
+k-2. output error for no or invalid output file
+
+
+User: Zhiqi Chen
+Tasks: a  , b  ,  f
+
+User: Samritha Balamoni
+Tasks: h, k
+
+User: Aamir Haroon
+Tasks: g , c, j
+
+User: Daniel Marjerrison
+Tasks: d  , e , i

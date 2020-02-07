@@ -1,0 +1,10 @@
+What did I work on in the last three days?
+    - Completed the history command class
+    - Finished the crc cards, at least up until now
+
+What do I plan to work on in the next three days?
+    - Any still uncompleted command classes
+    - Explorer class if need still be
+
+Am I blocked on anything?
+    - Explorer class

@@ -1,0 +1,10 @@
+a) What did I work on in the last three days? 
+- created directory stack
+- did  popd
+- did pushd
+	
+b) What do I plan to work in the next three days?
+- edit a few things from sprint 2 and 3 if necessary
+
+c) Am I blocked on anything?  
+- yes

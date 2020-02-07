@@ -1,0 +1,12 @@
+a) What did I work on in the last three days? 
+-tested functions that i wrote
+-added calls in command handler
+-completed the last sprint backlog and assigned work to others.
+-started on getting file traversal system to work
+b) What do I plan to work in the next three days?
+-start testing more functions
+-finish making the file navigation class
+-start to link everything together from jshell to command handler to commands
+-let the user start in the root and let user to traverse through the directories.
+c) Am I blocked on anything?  
+None.

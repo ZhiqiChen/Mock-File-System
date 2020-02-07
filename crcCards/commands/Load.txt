@@ -1,0 +1,13 @@
+Class name: Load
+Parent class (if any): Command
+Subclasses (if any):
+
+Responsibilities:
+*The JShell must load the contents of the FileName and reinitialize everything that was saved previously into the FileName.  
+*Resume activity from where they left off previously. 
+*Ensure that the load command is disabled if load command is typed at any point after any of the other 
+commands have been executed.  
+
+Collaborators:
+*File
+*JShell

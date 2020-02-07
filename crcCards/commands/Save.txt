@@ -1,0 +1,14 @@
+Class name: Save
+Parent class (if any): Command
+Subclasses (if any):
+
+Responsibilities:
+*Save the session of the JShell before the user closes it down.    
+*If command is typed, the entire state of the program is written to the file FileName on your computer.  
+*The entire mock file system including any state of any of the commands is written to FileName 
+*The path for FileName must be a valid path on your computer and not on JShell.  
+*If the above file exists on your computer, then you must overwrite the file completely.
+
+Collaborators:
+*File
+*JShell

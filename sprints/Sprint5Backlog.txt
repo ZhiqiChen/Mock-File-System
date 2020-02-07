@@ -1,0 +1,34 @@
+//Sprint 5 Backlog. by Zhiqi Chen
+
+User Stories from Product Backlog that we will address in this sprint:
+a)Write crc cards or modify them (check product backlog) to fit with the new additional functions
+b)Fix issues that were given in the feedback in part A
+c)unit testing for all funcitons
+d)Allow user to load a previously saved JShell state to the current session of the JShell.
+
+
+
+Specific tasks to be accomplished:
+a-1. write crc cards for cp, mv, find, tree
+a-2. modify crc cards for ls, cat.
+a-3. modify all command class except exit to include file redirection
+b-1. fix all design problems shown in feedback from part A
+b-2. add javadoc in CommandHandler, CommandValidator
+b-3. fix funcitons that caused errors in feedback from part A
+c-1. create unit testing for all command classes
+c-2. create unit testing for all structures
+d-1. load all directories and files while retaining their connections
+d-2  loda history
+d-3. load directory stack for calling in pushDir
+
+User: Zhiqi Chen
+Tasks: a  , b,  c, d
+
+User: Samritha Balamoni
+Tasks:  a  , b,  c,
+
+User: Aamir Haroon
+Tasks:  a  , b,  c,
+
+User: Daniel Marjerrison
+Tasks:  a  , b,  c,

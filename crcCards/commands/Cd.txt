@@ -1,0 +1,12 @@
+Class name: Cd
+Parent class (if any): Command
+Subclasses (if any):
+
+Responsibilities:
+*Change working directory to one specified
+*If no target directory is specified, switches to the home directory
+*As with Unix, arguments . and .. are valid
+* work with relative or full path
+Collaborators:
+*Directory
+*JShell

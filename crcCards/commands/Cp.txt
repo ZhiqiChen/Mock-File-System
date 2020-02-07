@@ -1,0 +1,13 @@
+Class name: Cp
+Parent class (if any): Command
+Subclasses (if any):
+
+Responsibilities:
+*Move item OLDPATH to NEWPATH
+*If NEWPATH is a directory, move item into the directory
+*Do not remove OLDPATH, if it is a directory, recursively copy the contents.
+
+Collaborators:
+*Directory
+*JShell
+

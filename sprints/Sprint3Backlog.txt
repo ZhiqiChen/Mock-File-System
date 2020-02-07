@@ -1,0 +1,46 @@
+//Sprint 2 Backlog. by Zhiqi Chen
+June 27 to July 4th
+
+User Stories from Product Backlog that we will address in this sprint:
+a) Display error messages to user if input is incorrect or issues with input (Jshell)
+b) Allow user to put a sentence typed into the terminal into a file creating the file (if it doesn't exist already) in 
+the process (echo)
+B) Allow user to put a sentence into a file that already exists, overwriting all contents of the file in the process
+Bb) Allow user to put a sentence into a file that already exists, just adding that sentence to the end of the contents of the file
+d) Parse user input through an interpreter (command handler)
+e) traversal of file system (fileTraversal)
+f) allow user to change directory (cd)
+
+
+Specific tasks to be accomplished:
+a-1. print error messages from incorrect input taken from command handler
+a-2. print error messages from faulty input that the classes reject.
+b-1. Create a new file
+b-2  Get user input into the file (remember to ignore the double quotes)
+b-3. if no outfile specified print to shell
+B-1. Search for file if it exists
+B-2. If file exists, overwrite contents of the file with the user input
+Bb-1. Recognize from user input if the user wants to append input to the end of a file
+Bb-2. Append user input to the end of the specified file
+c-1. test all functions
+d-1. give correct input to classes 
+e-1. allow user to traverse through the file system and allow
+creation of the path given (fileTraversal)
+e-2. this must be absolute path. 
+f-1 create cd.java and allow user to change directories from current to the new directory
+f-2. allow for relative and absolute path
+
+Other Misc. Tasks
+c-1. Test functions
+
+User: Zhiqi Chen
+Tasks: e-1, e-2, a1, a-2, c-1, d-1
+
+User: Samritha Balamoni
+Tasks: c-1, d-1, f-1, f-2
+
+User: Aamir Haroon
+Tasks: b1, b-2, b-3. B-1, B-2, Bb-1, Bb-2, c-1, d-1
+
+User: Daniel Marjerrison
+Tasks: c-1, d-1

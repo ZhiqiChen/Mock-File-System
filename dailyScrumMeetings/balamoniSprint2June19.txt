@@ -1,0 +1,12 @@
+a) What did I work on in the last three days? 
+- helped with crc cards
+- created file class
+- added current directory in directory.java
+- created instance of mkdir in  JShell
+	
+b) What do I plan to work in the next three days?
+- decide what sprint 2 is about
+- edit a few things from sprint 1 if necessary
+
+c) Am I blocked on anything?  
+- not yet

@@ -1,0 +1,10 @@
+What did I work on in the last three days?
+    - Completed a lot of work on JUnit test cases
+
+What do I plan to work on in the next three days?
+    - Remaining additional commands
+
+Am I blocked on anything?
+   - Ran into a lot of trouble committing my JUnit test cases
+   - Still not certain as to the cause of the problem, but will raise the issue with groupmates
+     and resolve asap

@@ -1,0 +1,42 @@
+//Sprint 2 Backlog. by Zhiqi Chen
+June 20 to June 26
+
+User Stories from Product Backlog that we will address in this sprint:
+a) Allow user to list all content of current and not current directory (ls)
+b) allow user to print current working directory (pwd)
+c) allow user to save working directory to return to (pushd)
+d) Allow user to reutrn to a directory that was saved (popd)
+e) allow user to read the contents of a text file in the terminal (cat)
+f) allow user to see all documentations (man)
+g) allow user to see history of all user command or a portion of it (history)
+h) Parse user input through an interpreter
+i) Display error messages to the user if input is incorrect
+j) Allow user to exit the program (exit)
+
+Specific tasks to be accomplished:
+a-1. create ls.java and list all file in current directory
+a-2. list file not in current directory
+a-3. read file in terminal
+b-1. create pwd.java and print current directory to terminal 
+c-1. create pushd.java and save current working along with other saved directories. 
+c-2. create directory stack
+d-1. create popd.java and able to return to a directory that was previously saved not just the last
+e-1. read all content of a text file, in cat.java
+f-1. create documentation for all classes (override to_String)
+g-1. create history.java and store all user history
+g-2. display all history or truncated portion (past 5 commands) to terminal
+h-1. Call appropriate class to run command
+i-1. Display error messages to the user if input is incorrect
+j-1. (Exit) Write code to close program when exit command given
+
+User: Zhiqi Chen
+Tasks: a1, a-2, a-3 b-1, 
+
+User: Samritha Balamoni
+Tasks: c-1, d-1, c-2
+
+User: Aamir Haroon
+Tasks: e-1, f-1, h-1, 
+
+User: Daniel Marjerrison
+Tasks: g-1, g-2, j-1

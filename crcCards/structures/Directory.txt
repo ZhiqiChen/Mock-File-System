@@ -1,0 +1,13 @@
+Class name: Directory
+Parent class (if any):
+Subclasses (if any):
+
+Responsibilities:
+*Represents a directory
+*Knows directory name
+*Knows subdirectories and files that the directory contains
+*Knows parent directory
+*Knows its path from the root
+*able to find subdirectories or files within the directory
+Collaborators:
+*None

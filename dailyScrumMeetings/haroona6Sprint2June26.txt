@@ -1,0 +1,10 @@
+What did I work on in the last three days?
+    - Worked on my tasks i-1, e-1, f-1, h-1
+
+What do I plan to work on in the next three days?
+    - Finish the remaining commands
+    - Test the code and improve design
+
+Am I blocked on anything?
+   - To finish h-1 the intrepreter, need all of the commands to be completed
+   - Also to finish i-1 (all the error checking), all the commands need to be completed

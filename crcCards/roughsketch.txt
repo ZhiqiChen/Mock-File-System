@@ -1,0 +1,241 @@
+Class: 	cat FILE
+ParentClass: 
+SUbClass:
+
+Responsibilities:
+Display the contents of FILE in the shell
+
+Collaborators:
+Compiler
+System call
+File
+
+-------------------------------------------------------------------------------------
+
+Class: 	cd DIR
+ParentClass: 
+SUbClass:
+
+Responsibilities:
+Change directory DIR
+
+Collaborators:
+Compiler
+System call
+Directory or full path
+
+--------------------------------------------------------------------------------------
+
+Class: 	compiler
+ParentClass: 
+SUbClass:
+
+Responsibilities:
+Compiles the given commands
+
+Collaborators:
+Operating System
+
+---------------------------------------------------------------------------------------
+
+Class: 	cp OLDFILE NEWFILE
+ParentClass: mv OLDFILE NEWFILE
+SUbClass:
+
+Responsibilities:
+Move file OLDFILE to NEWFILE without removing OLDFILE
+
+Collaborators:
+Compiler
+System call
+File
+
+----------------------------------------------------------------------------------------
+
+Class: 	echo STRING >> OUTFILE
+ParentClass: echo STRING > OUTFILE
+SUbClass:
+
+Responsibilities:
+Puts STRING in the file OUTFILE. Appends to previous contents if OUTFILE exists. Or if OUTFILE does 
+not exist, create new file.
+
+Collaborators:
+Compiler
+System call
+File
+
+----------------------------------------------------------------------------------------------
+
+Class: 	echo STRING > OUTFILE
+ParentClass: 
+SUbClass: echo STRING >> OUTFILE
+
+Responsibilities:
+Puts STRING in the file OUTFILE. Erases previous contents if OUTFILE exists. Or if OUTFILE does not
+exist, create new file.
+
+Collaborators:
+Compiler
+System call
+File
+
+-----------------------------------------------------------------------------------------------
+
+Class: 	exit
+ParentClass: 
+SUbClass:
+
+Responsibilities:
+quit the program
+
+Collaborators:
+Compiler 
+System call
+
+------------------------------------------------------------------------------------------------
+
+Class: 	get URL
+ParentClass: 
+SUbClass:
+
+Responsibilities:
+Retrieves the file at that URL and adds it to the directory
+
+Collaborators:
+Compiler
+System call
+File
+
+------------------------------------------------------------------------------------------------
+
+Class: 	ls
+ParentClass: 
+SUbClass:
+
+Responsibilities:
+Print the names of files and directories in the current directory
+
+Collaborators:
+Compiler
+System call
+
+-----------------------------------------------------------------------------------------------
+
+Class: 	mkdir DIR
+ParentClass: 
+SUbClass:
+
+Responsibilities:
+Creates a directory DIR
+
+Collaborators:
+Compiler
+System call
+Directory or full path
+
+-------------------------------------------------------------------------------------------------
+
+Class: 	mv OLDFILE NEWFILE
+ParentClass: 
+SUbClass: cp OLDFILE NEWFILE
+
+Responsibilities:
+Move file OLDFILE to NEWFILE
+
+Collaborators:
+Compiler
+System call
+File
+
+-------------------------------------------------------------------------------------------------
+
+Class: Operating System
+ParentClass: 
+SubClass:
+
+Responsibilities:
+Manages and provides services for application software
+
+Collaborators:
+computer
+
+-------------------------------------------------------------------------------------------------
+
+Class: 	pwd
+ParentClass: 
+SubClass:
+
+Responsibilities:
+Print the current working directory 
+
+Collaborators:
+Compiler
+System call
+
+------------------------------------------------------------------------------------------------
+
+Class: 	cd DIR
+ParentClass: 
+SUbClass:
+
+Responsibilities:
+Change directory DIR
+
+Collaborators:
+
+-------------------------------------------------------------------------------------------------
+
+Class: mkdir DIR
+Parent class: 
+Subclasses:
+
+Responsibilities:
+Creates a directory DIR
+
+Collaborators:
+Compiler
+System call
+Directory
+
+-------------------------------------------------------------------------------------------------
+
+Class: System Call
+Parent class: 
+Subclasses:
+
+Responsibilities:
+Allows programs to interact with the operating system
+
+Collaborators:
+OS
+
+--------------------------------------------------------------------------------------------------
+
+Class: URL
+Parent class: 
+Subclasses:
+
+Responsibilities:
+Stores files that can be retrieved in a location
+
+Collaborators:
+
+Compiler
+System call
+Directory or full path
+
+-----------------------------------------------------------------------------------------------
+
+Class name: file
+Parent class:
+Subclasses: directory, textfile
+
+Responsibilities:
+Can be moved, renamed, duplicated, opened and closed
+
+Collaborators:
+
+------------------------------------------------------------------------------------------------
+
+

@@ -1,0 +1,11 @@
+a) What did I work on in the last three days? 
+-tested some functions, fixed input parameters
+-reorganized file structure as per demo notes
+-fixed class names
+
+b) What do I plan to work in the next three days?
+-continue testing functions, and fixing input parameters 
+-make sure test cases mentioned in the demo are accounted for
+-
+c) Am I blocked on anything?  
+-where do we store current working directory?

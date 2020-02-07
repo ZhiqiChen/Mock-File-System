@@ -1,0 +1,103 @@
+Backlog Item							Estimate (in hours)
+
+(exit)
+Allow user to exit the program					1
+
+(mkdir)
+Allow user to create a directory in working directory		2
+
+Allow user to create a directory in a directory that is not	1
+the current working directory
+
+(cd)
+Allow user to change directory to the one specified		4
+
+(ls)
+Allow user to list all contents of specified directory		3
+if no specified directory list current directory
+
+if ls specifies a file print p 					2
+
+if -R is specified, recursively print contents of file or 	4
+directory of the specified directory. if no specified directory
+use current directory.
+
+Allow user to list all contents of a directory that		2
+is not the current working directory
+
+Allow user to read a file in the terminal			3
+
+(pwd)
+Allow users to print current working directory to terminal	1
+
+(pushd)
+Allow users to save the current working directory to return	4 
+to after working in another directory
+
+Allow users to save the current working directory to return to,	2
+even if many other directories are already saved
+
+(popd)
+Allow users to return to a directory that was previously saved	2
+
+Allow users to return to a directory that was saved two saves	2 
+ago, or any number of saves ago
+
+(history)
+Allow user to see history of all user commands			3
+
+Allow user to see a truncated portion of the history		2
+(say, items 4 to 7)
+
+(cat)
+Allow user to read the contents of a text file in the		4
+terminal
+
+Allow user to read the contents of several files at once, in	2 
+the terminal
+
+(echo)
+Allow user to put a sentence typed into the terminal into a	3
+file, creating the file (name specified) in 
+the process
+
+Allow user to put a sentence into a file that already exists,	1
+overwriting all contents of the file in the 
+process
+
+Allow user to put a sentence into a file that already exists,	1
+just adding that sentence to the end of the
+contents of the file
+
+(man)
+Allow user to see all documentation for any given command	6
+
+(fileTraversal)
+allow user to traverse through the file system and allow
+creation of the path given					2
+
+(Jshell)
+Prompt and accept input from the user	2
+Parse the user input through an interpreter to read it 5
+Display error messages to the user if input is incorrect 1
+
+(all program)
+allow user to use > and >> to either take output and store 	2
+and append to a file specified. If no file is specified
+output error message
+
+
+
+
+
+
+
+NOTE: In any instance when the user specifies a file, that user may be
+specifying the location of the file relative to the current working
+directory (relative path) or from the root (full path)
+
+
+
+
+
+

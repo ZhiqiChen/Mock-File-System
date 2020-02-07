@@ -1,0 +1,11 @@
+Class name: DirectoryStack
+Parent class (if any):
+Subclasses (if any):
+
+Responsibilities:
+*Represents all directories that the user has saved
+*Has push and pop functionalities of a stack
+
+Collaborators:
+*none
+

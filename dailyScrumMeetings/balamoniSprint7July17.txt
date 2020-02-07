@@ -1,0 +1,7 @@
+a) What did I work on in the last three days? 
+- implementing tree command
+- didnt do much had tests, assignments
+b) What do I plan to work in the next three days?
+- finish tree
+c) Am I blocked on anything?  
+- not yet

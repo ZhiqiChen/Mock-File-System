@@ -1,0 +1,9 @@
+What did I work on in the last three days?
+    - Worked on h-1
+
+What do I plan to work on in the next three days?
+    - FInished the rest of my tasks (i-1, e-1, f-1)
+    - Finish most of h-1 (Some is blocked by the rest of tasks)
+
+Am I blocked on anything?
+   - To finish h-1 the intrepreter, need all of the commands to be completed

@@ -1,0 +1,10 @@
+What did I work on in the last three days?
+    - worked on updating CRC cards
+
+What do I plan to work on in the next three days?
+    - finish off updating CRC cards from a1 with the group
+    - write code for EXIT: exit program when command given
+    - write base code for directory class
+
+Am I blocked on anything?
+   - I dont believe so

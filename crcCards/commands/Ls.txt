@@ -1,0 +1,24 @@
+Class name: Ls
+Parent class (if any): Command
+Subclasses (if any):
+
+Responsibilities:
+
+*List all files and subdirectories in the directory specified
+*If no directory specified, then it will list all files and sub directories in the current working directory
+*print files then print directories
+*print the file if the path given is a file
+*work with full or relative Path
+*If -R is present, recursively list all sub directories.
+*If no paths are given, print the contents (file or directory) of the current directory, with a new line 
+following each of the content (file or directory).Otherwise, for each path p, the order listed:
+*If p specifies a file, print p 
+*If p specifies a directory, print p, a colon, then the contents of that directory, then an extra new line.
+*If p does not exist, print a suitable message.
+
+
+Collaborators:
+*Directory
+*JShell
+*File
+*Cat

@@ -1,0 +1,12 @@
+What did I work on in the last three days?
+    - Finished b2
+    - Worked on b3
+    - Debugged and fixed some errors in Jshell
+    - Worked on CRC cards
+
+What do I plan to work on in the next three days?
+    - Updating CRC cards from a1 with the group
+    - Finish half my tasks for sprint 2
+
+Am I blocked on anything?
+   - No

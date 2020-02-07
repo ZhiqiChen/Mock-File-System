@@ -1,0 +1,44 @@
+//Sprint 1 Backlog.
+June 13 to June 19
+
+User Stories from Product Backlog that we will address in this sprint:
+a) Prompt user for input, and take the input
+b) Parse user input through an interpreter
+c) Allow user to exit the program (exit)
+d) Allow user to change directory to the one specified (cd)
+e) Allow user to create a directory in working directory (mkdir)
+f) Allow user to create a directory in a directory that is not the current working one (mkdir)
+
+Specific tasks to be accomplished:
+a-1. (JShell) Code the command line prompt
+a-2. (JShell) Code the portion of the shell that takes user input
+b-1. (JShell) Write code to split user input into command and arguments
+b-2. (JShell) Verify that user input is a valid command
+b-3. (JShell) Verify that input command has the correct number of arguments
+b-4. (JShell) Find files/paths/directories given as arguments
+c-1. (Exit) Write code to close program when exit command given
+d-1. (Directory) Write base code for Directory class
+d-2. (File) Write base code for the File class
+d-3. (CurrentDirectory) Write base code for CurrentDirectory class
+d-4. (Cd) Write code to update CurrentDirectory class with directory specified to change into
+e-1. (Mkdir) Create instance of Directory class with name specified
+e-2. (Mkdir) Assign current directory as that new instance's parent
+e-3. (Mkdir) Update current directory children to include the new directory
+f-1. (Mkdir) Include option in Mkdir to place new directory being created into a directory that is not the current one
+f-2. (Mkdir) Write necessary code to assign that other directory as the new directories parent
+
+Other Misc. Tasks
+o-1. Lead the discussion and improvement of CRC cards from a1 (3 hours)
+
+
+User: Zhiqi Chen
+Tasks: b-1, f-1, e-1, e-2, e-3
+
+User: Samritha Balamoni
+Tasks: a-1, a-2, d-2, d-3
+
+User: Aamir Haroon
+Tasks: b-2, b-3, d-4, f-2
+
+User: Daniel Marjerrison
+Tasks: o-1, c-1, d-1, b-4
